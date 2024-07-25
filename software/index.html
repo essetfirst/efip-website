@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Software - Programming Methodologies in JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <link href="../plugins/bootstrap-custom/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+
+    <!-- Java Script -->
+    <script src="../plugins/jquery.min.js"></script>
+    <script src="../plugins/moment.min.js"></script>
+    <script src="../plugins/bootstrap-custom/bootstrap.min.js"></script>
+
+    <!-- Stanford -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand brand" href="/">EssetFirst Internships &#9474; EIP 01</a>
+            </div>
+
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <!-- Header -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="pageHeader">
+                    <h1 id="title">
+                        Software - Programming Methodologies in JavaScript
+                    </h1>
+                </div>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p>
+                    Click on the following links to install software required to run class examples and work on assignments:
+                </p>
+                <ol>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1Q6f4FkpI_4_TDyDKQ58A86yuc6HUm9xX/view?usp=sharing">JDK for the Mac</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1UWFy1U06l88Cx3ElmESFJJJfpYxgcXFS/view?usp=sharing">JDK for Windows (32-bit)</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1HqRwb5G21znF5Y4EX9K_A751KvIULfVc/view?usp=sharing">JDK for Windows (64-bit)</a>
+                    </li>
+                    <li>
+                        <a href="/software/JSKarelForMac.zip">JSKarel for the Mac</a>
+                    </li>
+                    <li>
+                        <a href="/software/JSKarelForWindows.zip">JSKarel for Windows</a>
+                    </li>
+                    <li>
+                        <a href="EJS.jar">Executable JAR for EJS (Mac+Windows)</a>
+                    </li>
+
+                </ol>
+                <!--<hr/>-->
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+                <div class="footer">
+                    <p class="pull-left">
+                        &#169; EssetFirst 2024 &#124; Site design by Abraham Gebrekidan.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-74362126-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+    </div>
+
+    <script type="text/javascript">
+        $(".moment").each(function (i) {
+            var date = $(this).html()
+            var fromStr = moment(date, "YYYYMMDD").fromNow()
+            $(this).html(fromStr)
+        });
+        //alert(moment("20160101", "YYYYMMDD").fromNow())
+    </script>
+
+</body>
+
+</html>
