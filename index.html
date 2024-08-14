@@ -11,9 +11,16 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <!-- JavaScript -->
-  <script type="text/javascript" async=""
-    src="https://www.googletagmanager.com/gtag/js?id=G-X96D5MLH4S&amp;cx=c&amp;_slc=1"></script>
-  <script async="" src="//www.google-analytics.com/analytics.js"></script>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5PK645FT');</script>
+  <!-- End Google Tag Manager -->
 
   <script src="plugins/jquery.min.js"></script>
   <script src="plugins/moment.min.js"></script>
@@ -70,6 +77,12 @@
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PK645FT" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
   <!-- Navigation Bar -->
   <nav class="navbar navbar-inverse">
     <div class="container">
@@ -92,11 +105,25 @@
             <a href="/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
               aria-expanded="false">Sessions<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="/lectures/01-Program-Introduction/01-Program-Introduction.pdf">01 Program Introduction</a></li>
-              <li><a href="/lectures/02-Programming-In-Karel/02-Programming-in-Karel.pdf">02 Programming in Karel</a></li>
+              <li><a href="/lectures/01-Program-Introduction/01-Program-Introduction.pdf">01 Program Introduction</a>
+              </li>
+              <li><a href="/lectures/02-Programming-In-Karel/02-Programming-in-Karel.pdf">02 Programming in Karel</a>
+              </li>
               <li><a href="/lectures/03-Stepwise-Refinement/03-Stepwise-Refinement.pdf">03 Stepwise Refinement</a></li>
               <li><a href="/lectures/04-Simple-JavaScript/04-Simple-JavaScript.pdf">04 Simple JavaScript</a></li>
-              <li><a href="/lectures/05-Strings-And-Graphics/05-Strings-And-Graphics.pdf">05 Strings and Graphics</a></li>
+              <li><a href="/lectures/05-Strings-And-Graphics/05-Strings-And-Graphics.pdf">05 Strings and Graphics</a>
+              </li>
+              <li><a href="/lectures/06-Control-Statements/06-Control-Statements.pdf">06 Control Statements</a></li>
+              <li><a href="/lectures/07-Functions-And-Libraries/07-Functions-Libraries.pdf">07 Functions and
+                  Libraries</a></li>
+              <li><a href="/lectures/08-Mechanics-Of-Functions/08-Mechanics-Of-Functions.pdf">08 Mechanics of
+                  Functions</a></li>
+              <li><a href="/lectures/09-Interactive-Graphics/09-Interactive-Graphics.pdf">09 Interactive Graphics</a>
+              </li>
+              <li><a href="/lectures/10-Event-Driven-Programs/10-Event-Driven-Programs.pdf">10 Event-Driven Programs</a>
+              </li>
+              <li><a href="/lectures/11-Graphical-Structures/11-Graphical-Structures.pdf">11 Graphical Structures</a>
+              </li>
             </ul>
           </li>
 
@@ -114,6 +141,19 @@
               <li><a href="/readings/06-Assignment1.pdf">06 Assignment 1: Karel</a></li>
               <li><a href="/readings/07-SimpleJavaScript.pdf">07 Simple JavaScript</a></li>
               <li><a href="/readings/08-StringsAndGraphics.pdf">08 Strings and Graphics</a></li>
+              <li><a href="/readings/09-ControlStatements.pdf">09 Control Statements</a></li>
+              <li><a href="/readings/10-FunctionsAndLibraries.pdf">10 Functions and Libraries</a></li>
+              <li><a href="/readings/11-Assignment2.pdf">11 Assignment 2: Simple JavaScript Programs</a></li>
+              <li><a href="/readings/12-Section1.pdf">12 Section 1: Week 3</a></li>
+              <!-- <li><a href="/readings/12A-Section1Solutions.pdf">12 Section 1: Week 3 (Solutions)</a></li> -->
+              <li><a href="/readings/13-MechanicsOfFunctions.pdf">13 Mechanics of Functions</a></li>
+              <li><a href="/readings/13A-FunctionsAddendum.pdf">13A More of Mechanics of Functions</a></li>
+              <li><a href="/readings/13B-ClassExamples.pdf">13B Class Code Examples</a></li>
+              <li><a href="/readings/14-InteractiveGraphics.pdf">14 Interactive Graphics</a></li>
+              <li><a href="/readings/15-EventDrivenPrograms.pdf">15 Event-driven Programs</a></li>
+              <li><a href="/readings/16-Section2.pdf">16 Section 2: Week 4</a></li>
+              <!-- <li><a href="/readings/16A-Section2Solutions.pdf">16A Section 2: Week 4 (Solutions)</a></li> -->
+              <!-- <li><a href="/readings/17-GraphicalStructures.pdf">17 Graphical Structures</a></li> -->
             </ul>
           </li>
           <li class="dropdown">
@@ -121,6 +161,7 @@
               aria-expanded="false">Assignments <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="/assignments/Assignment-01">Assignment 1: Karel</a></li>
+              <li><a href="/assignments/Assignment-02">Assignment 2: Simple JavaScript Programs</a></li>
             </ul>
           </li>
 
@@ -185,7 +226,9 @@
           <span class="sidebaricon glyphicon glyphicon-download" aria-hidden="true"></span>
           <a href="/software">Software</a><br>
           <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>
-          <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NzBwamlwOW5jY28zNGJiNjZsZ2phYjlrNmRnbWNiOXA2a3MzMmJiM2M5aWowZDlnYzhvbWNjYjI2MF8yMDI0MDcyNFQxMDMwMDBaIGFicmFoYW1rZ2VicmVraWRhbkBt&amp;tmsrc=abrahamkgebrekidan%40gmail.com&amp;scp=ALL">Sessions Calendar</a><br>
+          <a target="_blank"
+            href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NzBwamlwOW5jY28zNGJiNjZsZ2phYjlrNmRnbWNiOXA2a3MzMmJiM2M5aWowZDlnYzhvbWNjYjI2MF8yMDI0MDcyNFQxMDMwMDBaIGFicmFoYW1rZ2VicmVraWRhbkBt&amp;tmsrc=abrahamkgebrekidan%40gmail.com&amp;scp=ALL">Sessions
+            Calendar</a><br>
         </div>
         <hr>
 
@@ -194,6 +237,10 @@
           <div>
             <span class="sidebaricon glyphicon glyphicon-edit" aria-hidden="true"></span>
             <a href="/assignments/Assignment-01">Assn 1: Karel</a>
+          </div>
+          <div>
+            <span class="sidebaricon glyphicon glyphicon-edit" aria-hidden="true"></span>
+            <a href="/assignments/Assignment-02">Assn 2: Simple JS</a>
           </div>
         </div>
         <hr>
@@ -234,13 +281,42 @@
         </div>
 
 
+
+        <div class="well">
+          <div class="newsfeedHeader">
+            <div class="newsfeedTitle">Assignment submission review</div>
+            <div class="moment">2024-08-09T15:22:28.037Z</div>
+          </div>
+          <p>
+            On another note, we are almost done with reviewing your Assignment 1 (Karel the Robot) submissions and we
+            will contact you via email regarding a one-on-one review session to go through the comments we made on your
+            code submission.
+          </p>
+        </div>
+        <div class="well">
+          <div class="newsfeedHeader">
+            <div class="newsfeedTitle">Assignment 2 (Simple JavaScript Programs)</div>
+            <div class="moment">2024-08-09T14:22:28.037Z</div>
+          </div>
+          <p>
+            <a href="/assignments/Assignment-02">Assignment 2</a> is out now. It is due on Monday, August 19th at
+            11:59pm. It is recommened that you start working on it early (since sessions from now on are going to come
+            thick and fast).
+          </p>
+          <p>
+            If you've not downloaded the SJS programming environment or you're having troubling launching it, please let
+            us know via email.
+          </p>
+        </div>
         <div class="well">
           <div class="newsfeedHeader">
             <div class="newsfeedTitle">Assignment 1 (Karel the Robot)</div>
             <div class="moment">2024-07-24T15:22:28.037Z</div>
           </div>
           <p>
-            <a href="/assignments/Assignment-01">Assignment 1</a> is now available. In general we expect that you will start working on it after Friday July 26th's learning session, but it's posted now if you want to look at it early.   It is due on Monday, August 5th at 11:59pm.
+            <a href="/assignments/Assignment-01">Assignment 1</a> is now available. In general we expect that you will
+            start working on it after Friday July 26th's learning session, but it's posted now if you want to look at it
+            early. It is due on Monday, August 5th at 11:59pm.
           </p>
           <p>
             If you downloaded the Karel programming environment and you're having troubling launching it, let us know.
@@ -253,7 +329,8 @@
             <div class="moment">2024-07-24T13:22:28.037Z</div>
           </div>
           <p>
-            Welcome to EssetFirst's Internship Program and its first module Programming Methodologies in JavaScript! We are looking forward to a fun couple of months. Program
+            Welcome to EssetFirst's Internship Program and its first module Programming Methodologies in JavaScript! We
+            are looking forward to a fun couple of months. Program
             started on Monday, July 15th at 01:30pm.
           </p>
         </div>
@@ -268,21 +345,10 @@
         <hr>
         <div class="footer">
           <p class="pull-left">
-            © EssetFirst 2024 | Site design by Abraham Gebrekidan.</p>
+            © EssetFirst 2024. Learning outta be fun!</p>
         </div>
       </div>
     </div>
-
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-      ga('create', 'UA-74362126-1', 'auto');
-      ga('send', 'pageview');
-    </script>
   </div>
 
   <script type="text/javascript">
